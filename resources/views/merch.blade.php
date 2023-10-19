@@ -84,7 +84,7 @@
     <div class="merch-container d-flex flex-wrap justify-content-center pt-3">
 
         @if($merchandise->isEmpty())
-        <div class="">
+        <div class=""> 
             <p class="text-white text-align-center m-5">No Merchandise Available</p>
         </div>
         @else
