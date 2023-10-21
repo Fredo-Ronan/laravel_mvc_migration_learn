@@ -1,20 +1,4 @@
 <?php 
-    /*
-        Catatan kalau mau pake data yang saya masukin ke database ku bisa pake ini
-        (awalnya cuma 3 data, tapi akhirnya saya coba lebih dari 3 data buat ngetest scroll nya)
-
-        INSERT INTO `merchandises` (`name`, `price`, `stock`, `created_at`, `updated_at`) VALUES
-        ('The Golden Hour DVD', 1400000, 5, '2023-10-18 09:56:12', '2023-10-18 09:56:12'),
-        ('Metal Spinning Badge', 520000, 10, '2023-10-18 09:58:51', '2023-10-18 09:58:51'),
-        ('The Golden Hour T-Shirt', 350000, 20, '2023-10-18 10:05:12', '2023-10-18 10:05:12'),
-        ('Metal Spinning Badge', 520000, 15, '2023-10-18 10:07:52', '2023-10-18 10:07:52'),
-        ('The Golden Hour DVD', 1500000, 4, '2023-10-18 10:08:24', '2023-10-18 10:08:24'),
-        ('The Golden Hour T-Shirt', 350000, 12, '2023-10-18 10:09:01', '2023-10-18 10:09:01'),
-        ('The Golden Hour T-Shirt', 350000, 12, '2023-10-18 10:09:47', '2023-10-18 10:09:47');
-
-        Atau bisa pake tinker juga di sesuaikan sama data itunya :)
-    */
-
     // Untuk ngelist data path string image2 nya, nanti di ambil sesuai data yang ada di database
     $list_image = [
         "images/merch1.png",
